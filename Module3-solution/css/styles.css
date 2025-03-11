@@ -1,0 +1,164 @@
+body {
+	margin-top:0px;
+	margin-right: 0px;
+	margin-left: 0px;
+  font-size: 16px;
+  color:black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+  border:3px solid black;
+}
+#pull-left {
+	float: left;
+}
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border-top:3px solid black;
+	border-bottom:5px solid black;
+	border-right:0px solid black;
+	border-left:0px solid black;
+height:100px;
+color: black;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+	padding-top:0px;
+}
+
+
+.navbar-brand body{
+	overflow: scroll;
+
+}
+.navbar-toggle{
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.sr-only{
+	display: none;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+	float: left;
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.collapse li{
+
+     margin-top: 0px;
+	
+		text-align: center;
+		border-top:3px solid black;
+		border-bottom:2px solid black;
+
+	}
+
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#main-content h1{
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+#p1 {
+	text-align: center;
+	font-size: 1.3em ;
+	margin-bottom: 0px;
+}
+#p2 {
+	text-align: center;
+	font-size: 1.3em ;
+	margin-bottom: 0px;
+}
+#p3 {
+	text-align: center;
+	font-size: 1.3em ;
+	margin-bottom: 0px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+@media (min-width: 768px){
+	
+
+	.col-md-12{
+		background-color: gray;
+		margin: 20px 20px 0px 20px;
+		font-size: 1.2em;
+		padding: 10px;
+	}
+	.collapse li{
+		display: none;
+	}
+	
+}
+@media (max-width: 767px) {
+	
+
+
+	.col-md-12{
+		background-color: gray;
+		margin: 50px 50px 0px 50px;
+		font-size: 1.2em;
+		padding: 10px;
+	}
+	.navbar-toggle .icon-bar {
+  margin-top: 5px;
+}
+.icon-bar + .icon-bar + .icon-bar + .icon-bar {
+	position:relative;
+	 margin-top: 20px;
+	 margin-bottom: 5px;
+	float: right;
+	display: block;
+
+
+	border-radius: 1px;
+	
+	
+
+}
+
+	.navbar-toggle .icon-bar{
+		display:all;
+	}
+button:data-target {
+	display: all;
+}
+#main-content h1{
+	margin-top: 100px;
+}	
+	
+	
+}
